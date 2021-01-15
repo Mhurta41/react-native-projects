@@ -10,14 +10,12 @@ const CounterScreen = () => {
 				title='Increase'
 				onPress={() => {
 					setCounter(counter + 1);
-					console.log(counter);
 				}}
 			/>
 			<Button
 				title='Decrease'
 				onPress={() => {
 					setCounter(counter - 1);
-					console.log(counter);
 				}}
 			/>
 			<Text>Current Count: {counter}</Text>
